@@ -8,7 +8,7 @@
 ## Source datasets
 
 - https://data.maptiler.com/downloads/ (under edu license)
-- http://download.geofabrik.de/ (non-tiled osm.pbf maps)
+- http://download.geofabrik.de/ (non-tiled osm.pbf data)
 
 ## Potential tools
 
