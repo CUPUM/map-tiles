@@ -39,7 +39,7 @@
 		"basezoom": 16,
 		"include_ids": false,
 		"combine_below": 14,
-		"name": "Quebec tiles",
+		"name": "Montreal tiles",
 		"version": "1.0",
 		"description": "Tile config based on OpenMapTiles schema",
 		"compress": "none",
@@ -48,7 +48,7 @@
 			"scheme": "xyz", 
 			"type": "baselayer", 
 			"format": "pbf", 
-            "tiles": ["https://repo-name-here/quebec/{z}/{x}/{y}.pbf"]
+            "tiles": ["https://cupum.github.io/map-tiles/montreal/{z}/{x}/{y}.pbf"]
 		}
 	}
 }
