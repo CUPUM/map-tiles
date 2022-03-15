@@ -40,5 +40,5 @@ Steps:
 2. Populate `/coastline` with unzipped content of https://osmdata.openstreetmap.de/download/water-polygons-split-4326.zip, such that tilemaker can find a file at `coastline/water_polygons.shp`.
 3. Configure `config.json` and `process.lua` to handle the input data and decide what layers should be included in the export, the zoom levels to render for each specified layers, the attribution of tags, etc. (See [Tilemaker docs](https://github.com/systemed/tilemaker/tree/master/docs) for more detail)
 4. If using a input data file that covers a large region limit to lower zoom levels (i.e. 0-12 or 0-14) or do a bounding-box crop if you desire higher zoom levels. The extraction process is very RAM-intensive.
-  - To crop, define the region's bounding box in `crop.sh` and run the script after.
+   - To crop, define the region's bounding box in `crop.sh` and run the script after.
 5. Run the render script from `extract.sh`, specifying the desired input file (cropped or original) and a new output folder.
