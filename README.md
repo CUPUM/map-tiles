@@ -42,3 +42,5 @@ Steps:
 4. If using a input data file that covers a large region limit to lower zoom levels (i.e. 0-12 or 0-14) or do a bounding-box crop if you desire higher zoom levels. The extraction process is very RAM-intensive.
    - To crop, define the region's bounding box in `crop.sh` and run the script after.
 5. Run the render script from `extract.sh`, specifying the desired input file (cropped or original) and a new output folder.
+6. Create a `style.json` using the tool of your choice or by copying one of https://openmaptiles.org/styles/ and add it to the extract's directory.
+6. After pushing the extraction result to github, it should be accessible as a vector tiles source using this url: `https://cupum.github.io/map-tiles/[directory_name]/{z}/{x}/{y}.pbf`
